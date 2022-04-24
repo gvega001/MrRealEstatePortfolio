@@ -49,9 +49,9 @@ body {
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
   color: #212529;
-  background-color: #fff;
+  background-color: #400791;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -606,7 +606,7 @@ progress {
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
-  }
+  height: 100%;}
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
