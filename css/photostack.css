@@ -40,27 +40,27 @@ photostack {
     }
     .img6{
         left: 11rem;
-        top: 6rem;
+        top: 1rem;
         
     }
     .img7{
         left: 13rem;
-        top: 7rem;
+        top: 2rem;
         
     }
     .img8{
         left: 15rem;
-        top: 8rem;
+        top: 3rem;
         
     }
     .img9{
         left: 17rem;
-        top: 9rem;
+        top: 4rem;
         height: 100%;
     } 
     .img10{
         left: 19rem;
-        top: 10rem;
+        top: 5rem;
         
     }
     .gallery-section img:hover{
