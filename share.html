@@ -70,7 +70,7 @@
             
         </main>
         <script src="js/bootstrap.bundle.js"></script>
-        <main class="container py-5">
+        <main class="container py-5 bg-gradient rounded-1">
           <h1>Share Story</h1>
           <form action="https://formspree.io/f/xjvlppye" method="POST"  id="my-form">
             <div class="form-group">
@@ -99,104 +99,108 @@
   
             <a class="btn btn-primary btn-sm " type="submit"   role="button">Submit</a>
           </form>
+          
+        
+        </main>
+       
+        <div class="container-fluid !direction !spacing bg-secondary">
           <p class="lead">Shared <a href="https://masonry.desandro.com/">Stories</a> with the Bootstrap grid system and cards component.</p>
         
-          <p>Masonry is not included in Bootstrap. Add it by including the JavaScript plugin manually, or using a CDN like so:</p>
-        
-          <pre><code>
-        &lt;script src=&quot;https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js&quot; integrity=&quot;sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D&quot; crossorigin=&quot;anonymous&quot; async&gt;&lt;/script&gt;
-          </code></pre>
-        
-          <p>By adding <code>data-masonry='{"percentPosition": true }'</code> to the <code>.row</code> wrapper, we can combine the powers of Bootstrap's responsive grid and Masonry's positioning.</p>
-        
-          <hr class="my-5">
-        
-          <div class="row" data-masonry='{"percentPosition": true }'>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-        
-                <div class="card-body">
-                  <h5 class="card-title">Future Shared Educatin Stories</h5>
-                  <p class="card-text">This will be for futre stories to come</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card p-3">
-                <figure class="p-3 mb-0">
-                  <blockquote class="blockquote">
-                    <p>A well-known quote, contained in a blockquote element.</p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer mb-0 text-muted">
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-        
-                <div class="card-body">
-                  <h5 class="card-title">Shared Story Technology</h5>
-                  <p class="card-text">Story coming soon. </p>
-                  <p class="card-text"><small class="text-muted">Author</small></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card bg-primary text-white text-center p-3">
-                <figure class="mb-0">
-                  <blockquote class="blockquote">
-                    <p>A well-known quote, contained in a blockquote element.</p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer mb-0 text-white">
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">Shared Real Estate Stories</h5>
-                  <p class="card-text">Coming Soon. </p>
-                  <p class="card-text"><small class="text-muted">Author</small></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card">
-                <svg class="bd-placeholder-img card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Card image</text></svg>
-        
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card p-3 text-end">
-                <figure class="mb-0">
-                  <blockquote class="blockquote">
-                    <p>A well-known quote, contained in a blockquote element.</p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer mb-0 text-muted">
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Misc Story</h5>
-                  <p class="card-text">Story to come...</p>
-                  <p class="card-text"><small class="text-muted">Author</small></p>
-                </div>
+        <p>Masonry is not included in Bootstrap. Add it by including the JavaScript plugin manually, or using a CDN like so:</p>
+      
+        <pre><code>
+      &lt;script src=&quot;https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js&quot; integrity=&quot;sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D&quot; crossorigin=&quot;anonymous&quot; async&gt;&lt;/script&gt;
+        </code></pre>
+      
+        <p>By adding <code>data-masonry='{"percentPosition": true }'</code> to the <code>.row</code> wrapper, we can combine the powers of Bootstrap's responsive grid and Masonry's positioning.</p>
+      
+        <hr class="my-5">
+      
+        <div class="row" data-masonry='{"percentPosition": true }'>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+      
+              <div class="card-body">
+                <h5 class="card-title">Future Shared Educatin Stories</h5>
+                <p class="card-text">This will be for futre stories to come</p>
               </div>
             </div>
           </div>
-        
-        </main>
-    
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card p-3">
+              <figure class="p-3 mb-0">
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+      
+              <div class="card-body">
+                <h5 class="card-title">Shared Story Technology</h5>
+                <p class="card-text">Story coming soon. </p>
+                <p class="card-text"><small class="text-muted">Author</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card bg-primary text-white text-center p-3">
+              <figure class="mb-0">
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-white">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Shared Real Estate Stories</h5>
+                <p class="card-text">Coming Soon. </p>
+                <p class="card-text"><small class="text-muted">Author</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <svg class="bd-placeholder-img card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Card image</text></svg>
+      
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card p-3 text-end">
+              <figure class="mb-0">
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Misc Story</h5>
+                <p class="card-text">Story to come...</p>
+                <p class="card-text"><small class="text-muted">Author</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
     </body>
     <!-- Begin Footer content -->
 <main class="flex-shrink-0">
