@@ -1,7 +1,9 @@
-photostack {
-    margin-bottom: 50rem;
+.photostack {
+    margin-bottom: 25rem;
     margin-left: -5rem;
+    margin-right: 9rem;
 }
+
    .gallery-section{
        position: relative;
    }
