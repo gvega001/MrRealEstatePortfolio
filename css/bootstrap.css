@@ -50,7 +50,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;
-  color: #fff;
+  
   background-color: #1E90FF;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -83,8 +83,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   width: 60px;
   margin: 0 5px;
   overflow: hidden;
-  background: #441FFF;
-  border-radius: 50px;
+  
+  background-color: aliceblue;border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease-out;
