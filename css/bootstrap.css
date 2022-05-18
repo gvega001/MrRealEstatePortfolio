@@ -50,7 +50,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;
-  color: black;
+  color: indigo;
   background-color: #1E90FF;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -8968,6 +8968,7 @@ border-radius: 10px;padding-top: 3rem !important;
   .flex-lg-column-reverse {
     flex-direction: column-reverse !important;
   }
+  
 
   .flex-lg-grow-0 {
     flex-grow: 0 !important;
