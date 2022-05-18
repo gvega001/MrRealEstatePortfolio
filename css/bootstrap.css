@@ -338,7 +338,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
-}
+border-radius: 3px;}
 
 table {
   caption-side: bottom;
@@ -7183,8 +7183,10 @@ position: static;}
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  
+
+border-radius: 10px;padding-top: 3rem !important;
+  padding-bottom: 11rem !important;
 }
 
 .pt-0 {
