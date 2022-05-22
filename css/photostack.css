@@ -1,7 +1,7 @@
 
 .photostack {
     margin-bottom: 25rem;
-    margin-left: -5rem;
+    margin-left: 0rem;
     margin-right: 9rem;
 }
 
@@ -18,52 +18,72 @@
     .img1{
         left: 1rem;
         top: 1rem;
-       
+       border-radius: 2rem;
+       box-shadow: 3rem;
+       border-bottom: 30em;
     }
     .img2{
         left: 3rem;
-        top: 2rem;
-       
+        top: 3rem;
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em;
     }
     .img3{
         left: 5rem;
-        top: 3rem;
-        
+        top: 5rem;
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em; 
     }
     .img4{
         left: 7rem;
-        top: 4rem;
-        
+        top: 7rem;
+        border-radius: 2rem;
+       box-shadow: 3rem;
+       border-bottom: 30em;
     }
     .img5{
-        left: 9rem;
-        top: 5rem;
-       
+        left: 11rem;
+        top: 9rem;
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em; 
     }
     .img6{
-        left: 11rem;
+        left: 19rem;
         top: 1rem;
-        
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em;
     }
     .img7{
-        left: 13rem;
-        top: 2rem;
-        
+        left: 21rem;
+        top: 3rem;
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em;
     }
     .img8{
-        left: 15rem;
-        top: 3rem;
-        
+        left: 23rem;
+        top: 5rem;
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em;
     }
     .img9{
-        left: 17rem;
-        top: 4rem;
-        height: 100%;
+        left: 25rem;
+        top: 7rem;
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em;
     } 
     .img10{
-        left: 19rem;
-        top: 5rem;
-        
+        left: 27rem;
+        top: 9rem;
+        border-radius: 2rem;
+        box-shadow: 3rem;
+        border-bottom: 30em;
     }
     .gallery-section img:hover{
         z-index: 20;
